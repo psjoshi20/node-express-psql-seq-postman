@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "reachuser",
+    "password": "reachpassword",
+    "database": "Bookstore_development",
+    "host": "127.0.0.1",
+    "port":"5436",
+    "dialect": "postgres"
+    
+  },
+  "test": {
+    "username": "reachuser",
+    "password": "reachpassword",
+    "database": "Bookstore_development",
+    "host": "127.0.0.1",
+    "port":"5436",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "reachuser",
+    "password": "reachpassword",
+    "database": "Bookstore_production",
+    "host": "127.0.0.1",
+    "port":"5436",
+    "dialect": "postgres"
+  }
+}
