@@ -1,3 +1,15 @@
+this app is working - > 
+express server starts localhost 3000
+displyas API json messages
+
+but not tested on postman yet
+
+... giving problems at db:seed
+syntax error due to 'import http' 
+ 
+
+ github repository -
+ https://github.com/psjoshi20/node-express-psql-seq-postman/blob/master
 In this assignment , I tried to build a basic  RESTful API where a user can perform a basic CRUD (CREATE, READ, UPDATE AND DELETE) operation.
 The database is Bookstore.
 
@@ -169,5 +181,3 @@ Open up postman and test the new route
 Reference:https://www.alibabacloud.com/blog/building-a-restful-api-with-express%2C-postgresql%2C-and-node-using-es6_594137?spm=a2c41.12245160.0.0
 329
 
-this app is not working ... giving problems at app.js syntax error due to 'import http' 
- 
