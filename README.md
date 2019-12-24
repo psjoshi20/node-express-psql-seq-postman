@@ -1,3 +1,5 @@
-# node-express-psql-seq-postman - not working. need to fix errors
+# node-express-psql-seq-postman  working but error with db:seed-all
 
-#this app is not working ... giving problems at app.js syntax error due to 'import http'
+not working. need to fix errors
+
+
