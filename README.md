@@ -1,5 +1,7 @@
-# node-express-psql-seq-postman  working but error with db:seed-all
+# node-express-psql-seq-postman  
+this app is working - > express server starts localhost 3000 displyas API json messages
 
-not working. need to fix errors
+but not tested on postman yet
+
 
 
