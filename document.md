@@ -1,4 +1,4 @@
-this app is working - > 
+
 express server starts localhost 3000
 displyas API json messages
 
@@ -181,3 +181,5 @@ Open up postman and test the new route
 Reference:https://www.alibabacloud.com/blog/building-a-restful-api-with-express%2C-postgresql%2C-and-node-using-es6_594137?spm=a2c41.12245160.0.0
 329
 
+///// laptop 5432
+raspberypi 5436 port for postgres

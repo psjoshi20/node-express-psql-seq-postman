@@ -2,7 +2,7 @@
   "name": "restapi-node-psgres",
   "version": "1.0.0",
   "description": "Assignment 3 - Demo REST API App",
-  "main": "index.js",
+  
   "scripts": {
     "start": "nodemon --exec babel-node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"

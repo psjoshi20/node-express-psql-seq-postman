@@ -1,8 +1,8 @@
+const app = require('express');
+const  controllers = require('../controllers');
 //This is where we are going to define our API endpoints. 
-import Users from './servers/controllers/user'; 
-import Books from './servers/controllers/book';
-
-export default (app) => {
+//const Users = require('./servers/controllers/user');
+//const Books = require('./servers/controllers/book');
 
      app.get('/api', (req, res) =>res.status(200).send(
          { message: 'Welcome to the BookStore API!', })); 
@@ -17,5 +17,4 @@ export default (app) => {
      
      app.delete('/api/books/:bookId', Books.delete); // API route for user to delete a book
 
-     };
-
+module.exports = app;

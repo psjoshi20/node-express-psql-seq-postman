@@ -1,6 +1,7 @@
 //for crud operation - controllers are used . this is our user controller
 import model from '../models'; 
 
+
 const { User } = model;
 
  class Users { 
@@ -16,5 +17,5 @@ const { User } = model;
       })) 
    } 
 } 
-
-export default Users;
+module.exports = Users;
+// export default Users;
