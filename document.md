@@ -1,12 +1,4 @@
 
-express server starts localhost 3000
-displyas API json messages
-
-but not tested on postman yet
-
-... giving problems at db:seed
-syntax error due to 'import http' 
-
 The Project -
  A basic CRUD (CREATE, READ, UPDATE AND DELETE) RESTful API .
  FrontEnd -
@@ -191,3 +183,13 @@ Reference:https://www.alibabacloud.com/blog/building-a-restful-api-with-express%
 
 ///// laptop 5432
 raspberypi 5436 port for postgres
+
+
+express server starts localhost 3000
+displyas API json messages
+
+but not tested on postman yet
+
+... giving problems at db:seed
+syntax error due to 'import http' 
+
