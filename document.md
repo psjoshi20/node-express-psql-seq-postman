@@ -6,21 +6,23 @@ but not tested on postman yet
 
 ... giving problems at db:seed
 syntax error due to 'import http' 
- 
 
- github repository -
+The Project -
+ A basic CRUD (CREATE, READ, UPDATE AND DELETE) RESTful API .
+ FrontEnd -
+ Backend -
+
+Github Repository -
  https://github.com/psjoshi20/node-express-psql-seq-postman/blob/master
-In this assignment , I tried to build a basic  RESTful API where a user can perform a basic CRUD (CREATE, READ, UPDATE AND DELETE) operation.
-The database is Bookstore.
 
 Tools
-Below are the tools and technologies used for building our RESTful API
+List of the tools and technologies used for building our RESTful API
 
 NodeJS — Node.js is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser. Basically, we would be using this to run our javascript code on the server.
 
 Express — This is a web application framework for Node.js which we would be using as a server for our API’s.
 
-PostgreSQL — This is an open source object-relational database system which we would be using to save our bookstore content.
+PostgreSQL — This is an open source object-relational database system which we would be using to save our bookstore content.The database is Bookstore.
 
 Sequelize — This is an ORM (Object Relational Mapper) for communicating with our PostgreSQL database.
 
@@ -33,8 +35,13 @@ What’s tried in this RESTful API?
 This RESTful API is  an application program interface (API) using following  HTTP requests - 
 GET, PUT, POST and DELETE methods on data.
 
+The Plan 
+Create express app, include all dependencies.
+Create a postgres database and a db table within it.
+Create a single page API that handles all the requests.
 Getting Started
-To get started with building our RESTful API,
+
+Action- 
 step 1- created a directory for our project. Move into the new directory and 
 initialize NodeJS by running the command below
 cd RestAPOinode-psgres npm init -y
@@ -42,6 +49,7 @@ cd RestAPOinode-psgres npm init -y
 step2-this would create a package.json file in our root directory.
 Most browsers currently doesn’t support ES6, so we are going to make use of babel to transpile our code from ES6 to ES5 so as to run on our browser.
 run the command below to set up babel
+
 step 3
 npm install babel-preset-env --save-dev 
 npm install babel-cli --save 
